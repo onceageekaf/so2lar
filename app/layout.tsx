@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { Analytics } from "@vercel/analytics/next"
 import { Geist } from "next/font/google"
 
-import { getBaseUrl } from "@/lib/site"
+import { getMetadataBaseUrl } from "@/lib/site"
 
 import "./globals.css"
 
@@ -18,7 +18,7 @@ const description =
   "A high-performance chemiresistive sensor for rapid, selective oxygen detection under visible light."
 
 export const metadata: Metadata = {
-  metadataBase: new URL(getBaseUrl()),
+  metadataBase: getMetadataBaseUrl(),
   title: {
     default: titleDefault,
     template: "%s | ETH Zurich",
