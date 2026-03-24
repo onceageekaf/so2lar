@@ -34,11 +34,11 @@ export function HeroSection() {
         </div>
 
         <h1 className="text-6xl md:text-7xl lg:text-8xl font-semibold text-slate-900 mb-4 leading-tight tracking-tight">
-          So<sub className="text-5xl md:text-6xl lg:text-7xl font-semibold">2</sub>LAR
+          SO<sub className="text-5xl md:text-6xl lg:text-7xl font-semibold">2</sub>LAR
         </h1>
 
         <p className="text-xl md:text-2xl font-medium text-teal-600 mb-6 tracking-wide">
-          Light-activated O<sub className="text-lg">2</sub> sensor
+          Light-activated Oxygen Sensor
         </p>
 
         <p className="text-lg md:text-xl text-slate-500 max-w-2xl mx-auto mb-4 leading-relaxed text-pretty">
@@ -49,7 +49,7 @@ export function HeroSection() {
         </p>
 
         <p className="text-base text-slate-400 max-w-xl mx-auto mb-10 leading-relaxed">
-          Just as a solar panel harvests photons to drive electrons, So<sub>2</sub>LAR
+          Just as a solar panel harvests photons to drive electrons, SO<sub>2</sub>LAR
           harvests visible light to drive a precisely calibrated electrical response
           that tells you exactly how much oxygen is present.
         </p>
