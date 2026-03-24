@@ -10,7 +10,7 @@ export function SiteHeader() {
           <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-teal-500 to-teal-600 flex items-center justify-center">
             <span className="text-white font-bold text-sm">O₂</span>
           </div>
-          <span className="font-semibold text-slate-900">SO<sub 2>LAR</span>
+          <span className="font-semibold text-slate-900">SO<sub>2</sub>LAR</span>
         </Link>
       </div>
     </header>
